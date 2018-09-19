@@ -8,6 +8,7 @@ border-color: rgb(204, 32, 48);
 padding: 30px;
 background-color: rgb(245, 245, 245);
 font-family: 'Quicksand','TimesNewRoman', sans-serif;
+margin: 35px;
 }
  .nom {
 font-size: 20px;
@@ -15,15 +16,17 @@ margin: 20px;
 padding: 25px;
 box-sizing: 300px;
 text-decoration: underline;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
  }
  #nom {
 
-width: 200px;
+width: 75%;
 margin-top: 10px;
-height: 40px; 
-text-decoration: underline;
+height: 50px; 
+font-size: 20px;
+
 
  }
 
@@ -33,15 +36,16 @@ margin: 20px;
 padding: 25px;
 box-sizing: 300px;
 text-decoration: underline;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
  } 
  #prenom {
 
-width: 200px;
+width: 75%;
 margin-top: 10px;
-height: 40px; 
-text-decoration: underline;
+height: 50px; 
+font-size: 20px;
 
  }
 
@@ -52,14 +56,15 @@ margin: 20px;
 padding: 25px;
 box-sizing: 300px;
 text-decoration: underline;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #event {
 
-width: 200px;
+width: 75%;
 margin-top: 10px;
-height: 40px; 
-
+height: 50px; 
+font-size: 20px;
 
 }
 
@@ -70,13 +75,15 @@ margin: 20px;
 padding: 25px;
 box-sizing: 300px;
 text-decoration: underline;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #titre {
 
-width: 200px;
+width: 75%;
 margin-top: 10px;
-height: 40px; 
+height: 50px; 
+font-size: 20px;
 }
 
 
@@ -85,15 +92,16 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
 
 }
 #description {
 
-width: 200px;
+width: 75%;
 margin-top: 10px;
-height: 40px; 
-text-decoration: underline;
+height: 50px; 
+font-size: 20px; 
 
 }
 
@@ -121,11 +129,9 @@ padding-bottom: 50px;
 .button {
 
 width: 20%;
-height: 1000px;
-padding: 500px;
-font-size :500px;
-line-height: 500px;
-box-sizing: 30%;
+padding: 50px;
+font-size :100%;
+
 
 }                  
 
@@ -195,6 +201,25 @@ font-family: "Font Awesome 5 free";
 	margin-left: 45px;
 
 }
+#datepicker {
+margin-top: 30px;
+margin-bottom: 20px;
+width: 300%;
+height: 300%;
+font-size: 200%;
+}
+
+
+@media screen (min-width: 300px){
+
+#datepicker	{
+	width: 100px;
+}
+}
+
+
+
+
 
 
 
