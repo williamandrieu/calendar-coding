@@ -210,6 +210,13 @@ font-size: 200%;
 }
 
 
+@media screen (min-width: 300px){
+
+#datepicker	{
+	width: 100px;
+}
+}
+
 
 
 
