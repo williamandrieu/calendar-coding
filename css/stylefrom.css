@@ -13,12 +13,17 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
+
  }
  #nom {
 
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
  }
 
  .prenom {
@@ -26,6 +31,8 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 
  } 
  #prenom {
@@ -33,6 +40,8 @@ box-sizing: 300px;
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
  }
 
 
@@ -41,12 +50,16 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 }
 #event {
 
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
 }
 
 
@@ -55,6 +68,8 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 }
 #titre {
 
@@ -69,6 +84,7 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+ 
 
 }
 #description {
@@ -76,6 +92,8 @@ box-sizing: 300px;
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
 }
 
 
@@ -122,14 +140,41 @@ background-color: rgba(204, 32, 48, 0.5);
 
 }
 
+.nom::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f2b9";
+}
+.description {
 
+text-decoration: underline;
 
+}
+.icon::after {
+font-family: "Font Awesome 5 free";
+	content: "\f274";	
+	font-size: 30px;
+}
+.prenom::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f2b9";
+}
 
+.non::before{
+font-family: "Font Awesome 5 free";
+	content: "\f044";
 
+} 
+.titre::before {
+font-family: "Font Awesome 5 free";
+	content: "\f129";
+	font-weight: 900;
+}
 
-
-
-
+.event::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f017";
+	text-decoration: none;
+}
 
 
 

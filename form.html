@@ -3,18 +3,20 @@
 <html>
 <head>
 	<title></title>
+<link rel="stylesheet" href="./fontawesome/css/all.css">
+<link rel="stylesheet" type="text/css" href="./css/stylefrom.css">
 
-<link rel="stylesheet" type="text/css" href="./stylefrom.css">
+
 
 </head>
 <body>
 	
-	<img src="./logocoding.jpg">
+	<img src="./img/logocoding.jpg">
 
-
+    
 	<div class="form">
 <form id="formulaire" action="index.html" method="GET">
-	<div  class="nom">
+    <div  class="nom">
 	<label for="nom">Nom</label><br>
 	<input type="text" name="nom" id="nom" value=""><br>
 	</div>
@@ -23,16 +25,19 @@
 	<input type="text" name="prenom" id="prenom" value=""><br>
 	</div>
 	<div class="titre">
-	<label for="titre">Titre</label><br>
+	
+    <label for="titre">Titre</label><br>
 	<input type="text" name="titre" id="titre" value=""><br>
 	</div>
-	<div class="event">
-	<label for="event">Evenement</label><br>
+	
+    <div class="event">
+	<label for="event"><span class="event">Evenement</span></label><br>
 	<input type="text" name="event" id="event" value=""><br>
 	</div>
 	<div class="description">
-	<label  for="description">Description</label><br>
+	<label  for="description" class="non">Description</label><br>
     <textarea name="description" id="description"></textarea>
+   </div>
     <div>
    
 
@@ -87,9 +92,10 @@
 </span>
 </div>
 
-	<div >
+	<div>
      
-    <input class="button" type="submit" name="send" value="Envoyer">
+  <input class="button" type="submit" name="send" value="Envoyer">
+   <span class="icon"></span> 
 </div>
 <div></div>
 </form>
