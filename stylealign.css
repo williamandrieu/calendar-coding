@@ -1,0 +1,60 @@
+#logo img
+{
+	width: 30%;
+}
+#body
+{
+	margin: 80px;/*
+	border:solid 5px;
+	border-color: rgb(204,32,48);*/
+}
+#pagination
+{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	/*border: solid red 3px;*/
+}
+/*.greyday a
+{
+	color:grey;
+	text-decoration: none;
+}
+.day a
+{
+	color:black;
+	text-decoration: none;
+}
+.day, .greyday
+{
+	
+	font-size: 18px;
+	border:2px solid;
+	border-color: rgb(204,32,48);
+	padding: 20px;
+	margin: 1px;
+	text-align: center;
+	border-radius: 10px;
+	
+}*/
+#month
+{
+	display:grid;
+	grid-template-rows: auto auto auto auto auto;
+}
+.week
+{
+	display:grid;
+	grid-template-columns: 179px 179px 179px  179px 179px 179px 179px;	
+}
+#mainWeekDays
+{
+	display:grid;
+	grid-template-columns: 179px 179px 179px  179px 179px 179px 179px;
+	text-align: center;
+}
+body {
+    font-family: 'Quicksand', 'TimesNewRoman', sans-serif;
+    font-size: 20px;
+
+}
