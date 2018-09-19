@@ -7,18 +7,24 @@ border: 10px solid ;
 border-color: rgb(204, 32, 48);
 padding: 30px;
 background-color: rgb(245, 245, 245);
+font-family: 'Quicksand','TimesNewRoman', sans-serif;
 }
  .nom {
 font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
+
  }
  #nom {
 
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
  }
 
  .prenom {
@@ -26,6 +32,8 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 
  } 
  #prenom {
@@ -33,6 +41,8 @@ box-sizing: 300px;
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
  }
 
 
@@ -41,12 +51,16 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 }
 #event {
 
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+
+
 }
 
 
@@ -55,6 +69,8 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+text-decoration: underline;
+
 }
 #titre {
 
@@ -69,6 +85,7 @@ font-size: 20px;
 margin: 20px;
 padding: 25px;
 box-sizing: 300px;
+ 
 
 }
 #description {
@@ -76,6 +93,8 @@ box-sizing: 300px;
 width: 200px;
 margin-top: 10px;
 height: 40px; 
+text-decoration: underline;
+
 }
 
 
@@ -88,13 +107,13 @@ padding-top: 30px;
 }
 
 .minute {
-
+	width: 120px;
 }
 
 .hour {
 
-padding-top: 40px;
-padding-bottom: 35px; 
+padding-top: 100px;
+padding-bottom: 50px; 
 
 }
 
@@ -119,18 +138,63 @@ width: 45%;
 width: 7%;
 font-size: 15px;
 background-color: rgba(204, 32, 48, 0.5);
+margin-left: 0px;
 
 }
 
+.nom::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f2b9";
+}
+.description {
 
+text-decoration: underline;
 
+}
+.icon::after {
+font-family: "Font Awesome 5 free";
+	content: "\f274";	
+	font-size: 30px;
+}
+.prenom::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f2b9";
+}
 
+.non::before{
+font-family: "Font Awesome 5 free";
+	content: "\f044";
 
+} 
+.titre::before {
+font-family: "Font Awesome 5 free";
+	content: "\f129";
+	font-weight: 900;
+}
 
+.event::before {
+	font-family: "Font Awesome 5 free";
+	content: "\f017";
+	text-decoration: none;
+}`
+#date {
+	margin-left: 50px;
+	display: flex;
+}
+.date {
+	font-size: : 30px;
+	float: left;
+	margin-left: 45px;
+	
+}
+#button {
+	margin-left: 50px;
+}
 
+#scroll1 {
+	margin-left: 45px;
 
-
-
+}
 
 
 

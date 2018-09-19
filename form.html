@@ -2,8 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-
+	<title>Formulaire</title>
+<link rel="stylesheet" href="./fontawesome/css/all.css">
+<link rel="stylesheet" type="text/css" href="./css/stylefrom.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./css/stylefrom.css">
 
 </head>
@@ -11,35 +13,42 @@
 	
 	<img src="./img/logocoding.jpg">
 
-
-	<div class="form">
+    
+<div class="form">
 <form id="formulaire" action="index.html" method="GET">
-	<div  class="nom">
+    <div  class="nom">
 	<label for="nom">Nom</label><br>
 	<input type="text" name="nom" id="nom" value=""><br>
 	</div>
 	<div class="prenom">
 	<label for="prenom">Prénom</label><br>
 	<input type="text" name="prenom" id="prenom" value=""><br>
-	</div>
-	<div class="titre">
-	<label for="titre">Titre</label><br>
+</div>
+<div class="titre">
+	
+    <label for="titre">Titre</label><br>
 	<input type="text" name="titre" id="titre" value=""><br>
-	</div>
-	<div class="event">
-	<label for="event">Evenement</label><br>
+</div>
+	
+<div class="event">
+	<label for="event"><span class="even">Evenement</span></label><br>
 	<input type="text" name="event" id="event" value=""><br>
 	</div>
-	<div class="description">
-	<label  for="description">Description</label><br>
+<div class="description">
+	<label  for="description" class="non">Description</label><br>
     <textarea name="description" id="description"></textarea>
-    <div>
+</div>
+<div id="date">
    
+    <div class="date">
+            
+        <input type="date" name="date" >
 
+    </div>
    
     
-    <div class="hour">
-    <select class="scroll">
+ <div class="hour">
+    <select class="scroll" id="scroll1">
     	<option></option>
     	<option value="1">1</option>
     	<option value="2">2</option>
@@ -67,7 +76,7 @@
     </select>
     <span class="heure">heure(s)</span>
     <span class="minute">
-    <select class="scroll">
+    <select class="scroll" id="scroll">
     	<option></option>
     	<option value="00">00</option>
     	<option value="05">05</option>
@@ -83,18 +92,21 @@
     	<option value="55">55</option>
 
 
-    </select>
-</span>
+     </select>
+    </span>
 </div>
 
-	<div >
+	<div id="button">
      
-    <input class="button" type="submit" name="send" value="Envoyer">
-</div>
-<div></div>
-</form>
+         <input class="button" type="submit" name="send" value="Envoyer">
+         <span class="icon"></span> 
+    </div>
+    <div>
+    
+    </div>
+    </form>
 
-</div>
+    </div>
 
 
 
