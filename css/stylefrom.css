@@ -58,7 +58,7 @@ text-decoration: underline;
 width: 200px;
 margin-top: 10px;
 height: 40px; 
-text-decoration: underline;
+
 
 }
 
@@ -137,6 +137,7 @@ width: 45%;
 width: 7%;
 font-size: 15px;
 background-color: rgba(204, 32, 48, 0.5);
+margin-left: 50px;
 
 }
 
@@ -174,6 +175,9 @@ font-family: "Font Awesome 5 free";
 	font-family: "Font Awesome 5 free";
 	content: "\f017";
 	text-decoration: none;
+}`
+.date {
+	margin-left: 50px;
 }
 
 
