@@ -7,6 +7,7 @@ border: 10px solid ;
 border-color: rgb(204, 32, 48);
 padding: 30px;
 background-color: rgb(245, 245, 245);
+font-family: 'Quicksand','TimesNewRoman', sans-serif;
 }
  .nom {
 font-size: 20px;
@@ -184,7 +185,7 @@ font-family: "Font Awesome 5 free";
 	font-size: : 30px;
 	float: left;
 	margin-left: 45px;
-
+	
 }
 #button {
 	margin-left: 50px;
