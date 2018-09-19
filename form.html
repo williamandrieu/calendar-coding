@@ -38,17 +38,17 @@
 	<label  for="description" class="non">Description</label><br>
     <textarea name="description" id="description"></textarea>
    </div>
-    <div>
+    <div id="date">
    
         <div class="date">
             
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" >
 
         </div>
    
     
     <div class="hour">
-    <select class="scroll">
+    <select class="scroll" id="scroll1">
     	<option></option>
     	<option value="1">1</option>
     	<option value="2">2</option>
@@ -76,7 +76,7 @@
     </select>
     <span class="heure">heure(s)</span>
     <span class="minute">
-    <select class="scroll">
+    <select class="scroll" id="scroll">
     	<option></option>
     	<option value="00">00</option>
     	<option value="05">05</option>
@@ -96,7 +96,7 @@
 </span>
 </div>
 
-	<div>
+	<div id="button">
      
   <input class="button" type="submit" name="send" value="Envoyer">
    <span class="icon"></span> 
