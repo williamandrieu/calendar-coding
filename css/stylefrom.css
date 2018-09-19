@@ -1,0 +1,137 @@
+
+
+
+.form {
+position: relative;
+border: 10px solid ;
+border-color: rgb(204, 32, 48);
+padding: 30px;
+background-color: rgb(245, 245, 245);
+}
+ .nom {
+font-size: 20px;
+margin: 20px;
+padding: 25px;
+box-sizing: 300px;
+ }
+ #nom {
+
+width: 200px;
+margin-top: 10px;
+height: 40px; 
+ }
+
+ .prenom {
+font-size: 20px;
+margin: 20px;
+padding: 25px;
+box-sizing: 300px;
+
+ } 
+ #prenom {
+
+width: 200px;
+margin-top: 10px;
+height: 40px; 
+ }
+
+
+.event {
+font-size: 20px;
+margin: 20px;
+padding: 25px;
+box-sizing: 300px;
+}
+#event {
+
+width: 200px;
+margin-top: 10px;
+height: 40px; 
+}
+
+
+.titre {
+font-size: 20px;
+margin: 20px;
+padding: 25px;
+box-sizing: 300px;
+}
+#titre {
+
+width: 200px;
+margin-top: 10px;
+height: 40px; 
+}
+
+
+.description {
+font-size: 20px;
+margin: 20px;
+padding: 25px;
+box-sizing: 300px;
+
+}
+#description {
+
+width: 200px;
+margin-top: 10px;
+height: 40px; 
+}
+
+
+.heure {
+font-size: 20px;
+margin: 10px;
+padding: 10px;
+padding-top: 30px;
+
+}
+
+.minute {
+
+}
+
+.hour {
+
+padding-top: 40px;
+padding-bottom: 35px; 
+
+}
+
+
+.button {
+
+width: 20%;
+height: 1000px;
+padding: 500px;
+font-size :500px;
+line-height: 500px;
+box-sizing: 30%;
+
+}                  
+
+img {
+width: 45%;
+}
+
+.scroll {
+
+width: 7%;
+font-size: 15px;
+background-color: rgba(204, 32, 48, 0.5);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
