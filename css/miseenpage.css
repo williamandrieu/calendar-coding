@@ -49,12 +49,12 @@
     font-size: 12px;
 }
 
-.day a, .greyday a {
+.day, .greyday{
     text-decoration: none;
     font-size: 25px;
 }
 
-.greyday a {
+.greyday{
     color: rgb(175, 175, 175);
 }
 
@@ -64,7 +64,7 @@
     font-size: 50px;
 }
 
-.day a {
+.day{
     color: black;
 }
 
