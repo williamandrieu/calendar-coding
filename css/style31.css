@@ -1,12 +1,15 @@
-#mois31 a{
+#mois31 span{
 	color: white;
 }
 
-#mois31{
-	background:rgb(204,32,48);
-	padding:6px;
+#pagination :hover:not(#mois31){
+	background: rgba(204,32,48, 0.5);
 }
 
-#pagination :hover:not(#mois31){
-	background:grey;
+#mois31 {
+    background: rgb(204,32,48);
+}
+
+#mois30, #mois28 {
+	background: rgba(100, 100, 100, 0.8);
 }

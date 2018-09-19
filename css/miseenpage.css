@@ -6,72 +6,54 @@
     text-align: center;
 }
 
-.pagination span {
-    padding: 10px 0;
-    background: rgb(204, 32, 48);
-    margin: 0;
-}
-
-.pagination span {
+.weekday span {
     list-style-type: none;
     display: inline-block;
-    width: 30.77%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
-}
-
-.weekdays {
-    padding: 10px 0;
-    background: rgb(204, 32, 48);
- 
-}
-
-.weekdays {
-    width: 95%;
-    padding-left : 10px;
+    width: 13%;
     text-align: center;
     margin-bottom: 5px;
     font-size:12px;
     color: white;
     font-size: 25px;
+    padding: 10px 0;
+    background: rgb( 4, 32, 48);
 }
 
-.day, .greyday {
+
+.day a, .greyday a  {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 25px;
     padding: 10px 0;
     background: #eee;
 }
 
-.day, .greyday {
-    text-align: center;
-    margin-bottom: 5px;
-    font-size: 12px;
-}
-
-.day, .greyday{
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.greyday{
+.greyday a {
     color: rgb(175, 175, 175);
 }
 
-#Mois30, #Mois31, #Mois28 {
+.pagination a  {
     color: white;
     text-decoration:none;
     font-size: 50px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #777;
+    padding: 1px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.day{
+.day a {
     color: black;
 }
 
 body {
     font-family: 'Quicksand', 'TimesNewRoman', sans-serif;
-    font-size: 20px;
-
 }
 
 #logo img {

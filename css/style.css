@@ -1,22 +1,17 @@
 #pagination a{
 	text-decoration: none;
-	color:black;
+	color: white;
 }
-
+	
 #pagination{
-	display:flex;
-	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	text-align: center;
-	margin:100px;
-	margin-bottom: 30px;
-	padding:20px;
-	border: 1px solid;
 }
 
 
-#mois28, #mois30, #mois31{
-	border:2px solid;
-	width: 130px;
-	padding:6px;
+#mois28, #mois30, #mois31 {
+	width: 30.51%;
+    margin: 3px;
 }
-
