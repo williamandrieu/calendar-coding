@@ -1,0 +1,15 @@
+#novembre span{
+	color: white;
+}
+
+#pagination :hover:not(#novembre){
+	background: rgba(204,32,48, 0.5);
+}
+
+#novembre {
+    background: rgb(204,32,48);
+}
+
+#janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #decembre {
+	background: rgba(100, 100, 100, 0.8);
+}

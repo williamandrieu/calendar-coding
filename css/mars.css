@@ -1,0 +1,15 @@
+#mars span{
+	color: white;
+}
+
+#pagination :hover:not(#mars){
+	background: rgba(204,32,48, 0.5);
+}
+
+#mars {
+    background: rgb(204,32,48);
+}
+
+#janvier, #fevrier, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre {
+	background: rgba(100, 100, 100, 0.8);
+}

@@ -1,0 +1,96 @@
+
+
+#pagination a{
+    text-decoration: none;
+    color: white;
+}
+    
+#pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre {
+    width: 7.25%;
+    margin: 3px;
+}
+
+
+#calendar {
+    margin-top: 40px;
+}
+
+#body {
+    text-align: center;
+}
+
+.weekday span {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+    background: rgb( 4, 32, 48);
+}
+
+.pagination a  {
+    text-decoration:none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 1px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.day a, .greyday a  {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 0;
+    background: #eee;
+}
+
+.day a {
+    color: black;
+}
+
+.greyday a {
+    color: rgb(175, 175, 175);
+}
+
+body {
+    font-family: 'Quicksand', 'TimesNewRoman', sans-serif;
+}
+
+#logo img {
+    width: 30%;
+}
+
+@media screen and (max-width: 2px ) and (min-width: 1px); {}
+    #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre{
+        float: none;
+        width: 28.2%;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px ) and (min-width: 600px); {
+    .weekday span {
+        float: none;
+        width: 13%;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
