@@ -1,3 +1,23 @@
+
+
+#pagination a{
+    text-decoration: none;
+    color: white;
+}
+    
+#pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre {
+    width: 7.25%;
+    margin: 3px;
+}
+
+
 #calendar {
     margin-top: 40px;
 }
@@ -19,6 +39,14 @@
     background: rgb( 4, 32, 48);
 }
 
+.pagination a  {
+    text-decoration:none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 1px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 .day a, .greyday a  {
     display: inline-block;
@@ -31,25 +59,12 @@
     background: #eee;
 }
 
-.greyday a {
-    color: rgb(175, 175, 175);
-}
-
-.pagination a  {
-    color: white;
-    text-decoration:none;
-    font-size: 50px;
-    width: 40%;
-    text-align: center;
-    margin-bottom: 5px;
-    color: #777;
-    padding: 1px; 
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 .day a {
     color: black;
+}
+
+.greyday a {
+    color: rgb(175, 175, 175);
 }
 
 body {
@@ -58,4 +73,24 @@ body {
 
 #logo img {
     width: 30%;
+}
+
+@media screen and (max-width: 2px ) and (min-width: 1px); {}
+    #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre{
+        float: none;
+        width: 28.2%;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px ) and (min-width: 600px); {
+    .weekday span {
+        float: none;
+        width: 13%;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
 }

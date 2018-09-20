@@ -1,0 +1,16 @@
+#juin span{
+	color: white;
+}
+
+#pagination :hover:not(#juin){
+	background: rgba(204,32,48, 0.5);
+}
+
+#juin {
+    background: rgb(204,32,48);
+}
+
+#janvier, #fevrier, #mars, #avril, #mai, #juillet, #aout, #septembre, #octobre, #novembre, #decembre {
+	background: rgba(100, 100, 100, 0.8);
+}
+
