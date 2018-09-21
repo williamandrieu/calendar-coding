@@ -2,7 +2,7 @@
 	color: white;
 }
 
-#pagination :hover:not(#juin){
+#months2 :hover:not(#juin){
 	background: rgba(204,32,48, 0.5);
 }
 
