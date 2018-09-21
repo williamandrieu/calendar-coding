@@ -72,7 +72,7 @@ body {
     width: 30%;
 }
 
-@media screen and (max-width: 2px ) and (min-width: 1px) {}
+/*@media screen and (max-width: 2px ) and (min-width: 1px) {}
     #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre{
         float: none;
         width: 28.2%;
@@ -81,3 +81,4 @@ body {
         text-align: center;
     }
 }
+*/
