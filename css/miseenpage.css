@@ -1,4 +1,10 @@
+#body {
+    text-align: center;
+}
 
+body {
+    font-family: 'Quicksand', 'TimesNewRoman', sans-serif;
+}
 
 #pagination a{
     text-decoration: none;
@@ -17,13 +23,8 @@
     margin: 3px;
 }
 
-
 #calendar {
     margin-top: 40px;
-}
-
-#body {
-    text-align: center;
 }
 
 .weekday span {
@@ -67,10 +68,6 @@
     color: rgb(175, 175, 175);
 }
 
-body {
-    font-family: 'Quicksand', 'TimesNewRoman', sans-serif;
-}
-
 #logo img {
     width: 30%;
 }
@@ -84,4 +81,3 @@ body {
         text-align: center;
     }
 }
-
