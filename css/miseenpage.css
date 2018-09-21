@@ -21,6 +21,11 @@ body {
 #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre {
     width: 7.25%;
     margin: 3px;
+    float: none;
+    width: 28.2%;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 #calendar {
@@ -72,12 +77,14 @@ body {
     width: 30%;
 }
 
-@media screen and (max-width: 2px ) and (min-width: 1px) {}
-    #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre{
-        float: none;
-        width: 28.2%;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
+@media screen and (max-width: 800px) {
+    .weekday span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .weekday span {
+        font-size: 11px;
     }
 }
