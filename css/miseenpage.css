@@ -75,7 +75,7 @@ body {
     width: 30%;
 }
 
-@media screen and (max-width: 2px ) and (min-width: 1px); {}
+@media screen and (max-width: 2px ) and (min-width: 1px) {}
     #janvier, #fevrier, #mars, #avril, #mai, #juin, #juillet, #aout, #septembre, #octobre, #novembre, #decembre{
         float: none;
         width: 28.2%;
@@ -85,12 +85,3 @@ body {
     }
 }
 
-@media screen and (max-width: 700px ) and (min-width: 600px); {
-    .weekday span {
-        float: none;
-        width: 13%;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-    }
-}
