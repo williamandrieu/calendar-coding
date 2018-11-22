@@ -80,11 +80,13 @@ body {
 @media screen and (max-width: 800px) {
     .weekday span {
         font-size: 12px;
+        display: none;
     }
 }
 
 @media screen and (max-width: 400px) {
     .weekday span {
         font-size: 11px;
+        display: block;
     }
 }
